@@ -73,7 +73,7 @@ jobs:
           cd build
           cmake ..
           make
-          ./src/calculator div 1 5
+          ./src/calculator div 1 #
 
   Test_Car:
     runs-on: ubuntu-latest
